@@ -79,22 +79,14 @@ export const Hero = () => {
             Perfect for luxury brands, premium services, and distinguished businesses.
           </p>
 
-          {/* CTA Buttons */}
-          <div className="flex flex-col sm:flex-row gap-6 justify-center items-center pt-8">
+          {/* CTA Button */}
+          <div className="flex justify-center items-center pt-8">
             <Button 
               onClick={scrollToContact}
               size="lg"
               className="text-lg px-12 py-8 bg-gradient-elegant hover:scale-105 transition-transform duration-300 shadow-elegant"
             >
               Make an Offer
-            </Button>
-            <Button 
-              onClick={scrollToContact}
-              variant="outline"
-              size="lg"
-              className="text-lg px-12 py-8 border-2 border-gold text-gold hover:bg-gold hover:text-background transition-all duration-300"
-            >
-              Contact Owner
             </Button>
           </div>
         </div>
