@@ -1,7 +1,6 @@
-import { Phone, Mail } from "lucide-react";
+import { Mail } from "lucide-react";
 
 export const Contact = () => {
-
   return (
     <section id="contact" className="py-32 bg-gradient-luxury relative overflow-hidden">
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_70%_50%,hsl(45_85%_65%_/_0.1),transparent_70%)]" />
@@ -20,24 +19,16 @@ export const Contact = () => {
           <div className="bg-card/50 backdrop-blur-lg rounded-3xl p-12 shadow-elegant border border-border/50 animate-fade-in-up">
             <div className="text-center space-y-8">
               <p className="text-lg text-muted-foreground mb-12">
-                For inquiries and offers, please contact our exclusive broker:
+                For serious inquiries and offers, please contact us:
               </p>
               
               <div className="space-y-6">
                 <a 
-                  href="tel:+19043167232"
-                  className="flex items-center justify-center gap-4 text-2xl text-foreground hover:text-gold transition-colors group"
-                >
-                  <Phone className="w-6 h-6 group-hover:scale-110 transition-transform" />
-                  <span>+1 (904) 316-7232</span>
-                </a>
-                
-                <a 
-                  href="mailto:brian@gritbrokerage.com"
+                  href="mailto:contact@madam.com"
                   className="flex items-center justify-center gap-4 text-2xl text-foreground hover:text-gold transition-colors group"
                 >
                   <Mail className="w-6 h-6 group-hover:scale-110 transition-transform" />
-                  <span>brian@gritbrokerage.com</span>
+                  <span>contact@madam.com</span>
                 </a>
               </div>
             </div>
